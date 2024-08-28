@@ -1,5 +1,5 @@
 {% set name = "eo-dataflow-report" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.ifremer.fr/eo-dataflow/eo-dataflow-report/-/archive/{{ version }}/eo-dataflow-report-{{ version }}.tar.gz
-  sha256: 3608ece231b1e2498991ecd56a45a2880aa33e1c2bf25ac16966b50c34c8943f
+  sha256: 983316b426d8000f22de1c93ce907af26dc54eb21fee75a93b45baa667acaada
 
 build:
   number: 0
