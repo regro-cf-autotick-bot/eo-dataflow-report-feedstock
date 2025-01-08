@@ -10,7 +10,7 @@ source:
   sha256: 3608ece231b1e2498991ecd56a45a2880aa33e1c2bf25ac16966b50c34c8943f
 
 build:
-  number: 0
+  number: 1
   script_env:
     - POETRY_DYNAMIC_VERSIONING_BYPASS={{ version }}
   script: {{ PYTHON }} -m pip install . -vv
@@ -22,13 +22,13 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - poetry-core
     - poetry-dynamic-versioning
     - pip
 
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - elasticsearch >=7.17.0,<7.18
     - pydantic >=1.9.0,<2.0
     - numpy >=1.22.2,<1.23
@@ -40,6 +40,8 @@ requirements:
     - pyaml >=6.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - eo_dataflow_report
 
