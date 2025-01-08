@@ -1,11 +1,11 @@
-About eo-dataflow-report
-========================
+About eo-dataflow-report-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-dataflow-report-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.ifremer.fr/eo-dataflow/eo-dataflow-report
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-dataflow-report-feedstock/blob/main/LICENSE.txt)
 
 Summary: Checks online services for changed in data files, and downloads them when needed.
 
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@2x38](https://github.com/2x38/)
 * [@marie59](https://github.com/marie59/)
 
